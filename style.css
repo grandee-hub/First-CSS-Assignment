@@ -1,0 +1,21 @@
+.first-child{
+    color: red;
+}
+
+.first-child + .second-child{
+    font-style: italic;
+}
+
+.sec{
+    display: none;
+    background-color: black;
+    color: red;
+}
+
+.first-section:hover>.sec{
+    display: block;
+}
+
+a[href]{
+    font-size: 2rem;
+}
